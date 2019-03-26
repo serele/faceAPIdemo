@@ -1,0 +1,14 @@
+﻿<Window x:Class="faceAPIdemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:faceAPIdemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="830">
+    <Grid>
+        <Image Stretch="Uniform" x:Name="faceImage" HorizontalAlignment="Center" Margin="0,0,0,30"/>
+        <Button x:Name="btnUpload" VerticalAlignment="Bottom" Content="Abrir imagen" Margin="20,5" Height="20" Click="BtnUpload_Click"/>
+
+    </Grid>
+</Window>
